@@ -1,0 +1,31 @@
+<div class="form">
+
+    <div class="p-field">
+        <span class="p-float-label">
+                
+            <input id="float-input" type="text" pInputText [(ngModel)]="item.title" id ="input_ti" required="true"  autofocus> 
+            <label for="float-input" class = "label-form" >Title*</label>
+            
+        </span>
+    </div>
+    <div class="p-field">
+        <span class="p-float-label">
+                <textarea [rows]="5" [cols]="30" pInputTextarea autoResize="autoResize" [(ngModel)]="item._about" value="{config_data._about}" id ="input_ti" required="true"></textarea>
+                <label for="float-input" class = "label-form">About*</label>
+            </span>
+    </div>
+    <div class="p-field">
+        <span class="p-float-label">
+                <textarea [rows]="5" [cols]="30" pInputTextarea autoResize="autoResize" [(ngModel)]="item.accessURL" value="config_data.accessURL" id ="input_ti" required="true"></textarea>
+                <label for="float-input" class = "label-form">URL*</label>
+            </span>
+    </div>
+    <div>
+        <button pButton pRipple label="Cancel" icon="pi pi-times" class="p-button-outlined " id="btn-dialog-cancel" (click)="hideDialog()"></button>
+        <button pButton pRipple label="Save" icon="pi pi-check" class="p-button-outlined " (click)="saveItem()" id="btn-dialog-save"></button>
+    </div>
+
+
+
+
+</div>

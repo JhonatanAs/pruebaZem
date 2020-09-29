@@ -1,0 +1,6 @@
+.a-text {
+    white-space: nowrap;
+    overflow: hidden;
+    /* <- this does seem to be required */
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,25 @@
+.form {
+    text-align: center;
+}
+
+.p-field {
+    margin-top: 20px;
+}
+
+.label-form {
+    margin-left: 5%;
+}
+
+#input_ti {
+    width: 300px;
+}
+
+#btn-dialog-cancel {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#btn-dialog-save {
+    margin-left: 5px;
+    margin-top: 10px;
+}
